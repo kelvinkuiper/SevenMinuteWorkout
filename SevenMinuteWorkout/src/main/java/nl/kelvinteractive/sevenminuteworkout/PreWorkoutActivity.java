@@ -31,6 +31,7 @@ public class PreWorkoutActivity extends Activity {
         timeLabel.setText(Integer.toString(cTimer));
 
         final long millisDuration = cTimer * 1000;
+
         progressBar.setMax((int)millisDuration);
 
         new CountDownTimer(millisDuration, 1000) {
