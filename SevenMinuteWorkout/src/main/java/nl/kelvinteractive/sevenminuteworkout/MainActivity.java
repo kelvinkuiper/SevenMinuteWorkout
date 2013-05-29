@@ -1,4 +1,5 @@
 //TODO: Add strings.xml
+//TODO: Naming conventions
 //TODO: Add launcher icon
 //TODO: Cleanup resources
 //TODO: Add settings
@@ -7,7 +8,8 @@
 * Could-haves:
 * - Navigate between workouts
 * - A nice design
-* - Workout Reminder
+* - Workout Reminder (show alarm / notification)
+* - Implement different workouts
 */
 
 package nl.kelvinteractive.sevenminuteworkout;
@@ -17,7 +19,6 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
-
 
 public class MainActivity extends Activity {
 
