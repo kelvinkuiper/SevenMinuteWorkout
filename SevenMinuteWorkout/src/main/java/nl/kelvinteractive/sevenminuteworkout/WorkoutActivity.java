@@ -2,16 +2,12 @@ package nl.kelvinteractive.sevenminuteworkout;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by kelvin on 27-05-13.
- */
 public class WorkoutActivity extends Activity {
 
     TextView timeLabel;
@@ -43,7 +39,6 @@ public class WorkoutActivity extends Activity {
         workoutLabel.setText(cWorkout);
 
         /* set workout image */
-        String icon = "w" + (cWorkoutIndex + 1);
         int resID = getResources().getIdentifier("w" + (cWorkoutIndex + 1), "drawable",  getPackageName());
         workoutImage.setImageResource(resID);
 

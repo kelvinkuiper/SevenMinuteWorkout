@@ -2,9 +2,6 @@ package nl.kelvinteractive.sevenminuteworkout;
 
 import android.app.Application;
 
-/**
- * Created by kelvin on 28-05-13.
- */
 public class MyApp extends Application {
 
     private String[] aWorkouts;

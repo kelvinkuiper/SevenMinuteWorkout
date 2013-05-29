@@ -1,3 +1,7 @@
+//TODO: Add strings.xml
+//TODO: Add launcher icon
+//TODO: Cleanup resources
+
 package nl.kelvinteractive.sevenminuteworkout;
 
 import android.content.Intent;
@@ -16,6 +20,7 @@ public class MainActivity extends Activity {
 
         String aWorkouts[] = {"Jumping Jacks", "Wall sit", "Push-up", "Abdominal crunch", "Chair step", "Squat", "Chair push", "Plank", "Running, high knees", "Lunge", "Push-up and rotate", "Side plank"};
 
+        //TODO: Add NullPointer check
         ((MyApp) this.getApplicationContext()).setWorkouts(aWorkouts);
 
         Button startButton = (Button) findViewById(R.id.startButton);

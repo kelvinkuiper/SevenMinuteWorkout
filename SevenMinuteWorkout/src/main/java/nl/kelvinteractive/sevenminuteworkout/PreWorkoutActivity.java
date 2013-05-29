@@ -4,12 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.os.Handler;
 import android.widget.TextView;
 
-/**
- * Created by kelvin on 23-05-13.
- */
 public class PreWorkoutActivity extends Activity {
 
     TextView timeLabel;
@@ -21,8 +17,6 @@ public class PreWorkoutActivity extends Activity {
     int cTimer = 3;
     //Store the current workout
     String cWorkout = null;
-
-    private Handler handler = new Handler();
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
