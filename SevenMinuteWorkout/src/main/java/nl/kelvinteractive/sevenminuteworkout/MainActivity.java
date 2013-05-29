@@ -1,6 +1,14 @@
 //TODO: Add strings.xml
 //TODO: Add launcher icon
 //TODO: Cleanup resources
+//TODO: Add settings
+
+/*
+* Could-haves:
+* - Navigate between workouts
+* - A nice design
+* - Workout Reminder
+*/
 
 package nl.kelvinteractive.sevenminuteworkout;
 
