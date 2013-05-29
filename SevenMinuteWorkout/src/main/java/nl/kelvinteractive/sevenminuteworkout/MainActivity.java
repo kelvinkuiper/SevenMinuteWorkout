@@ -7,7 +7,7 @@
 /*
 * Could-haves:
 * - Navigate between workouts
-* - A nice design
+* - A nice design / different workout images
 * - Workout Reminder (show alarm / notification)
 * - Implement different workouts
 */
