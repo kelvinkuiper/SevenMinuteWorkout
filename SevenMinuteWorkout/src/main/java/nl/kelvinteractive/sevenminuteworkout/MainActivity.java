@@ -3,6 +3,7 @@
 //TODO: Add launcher icon
 //TODO: Cleanup resources
 //TODO: Add settings
+//TODO: update progressbar on final
 
 /*
 * Could-haves:
@@ -17,6 +18,7 @@ package nl.kelvinteractive.sevenminuteworkout;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -40,6 +42,41 @@ public class MainActivity extends Activity {
                 MainActivity.this.startActivity(myIntent);
             }
         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        String namen[] = {"Kelvin", "Ruurd", "Eelco", "Jan Hendrik"};
+
+        int aantal = namen.length;
+
+        Log.i("Naam", namen[(int)Math.random() * aantal - 1]);
+        Log.i("Naam", namen[(int)Math.random() * aantal - 1]);
+        Log.i("Naam", namen[(int)Math.random() * aantal - 1]);
+        Log.i("Naam", namen[(int)Math.random() * aantal - 1]);
+
+
+
+
+
+
+
+
+
+
 
 
     }
