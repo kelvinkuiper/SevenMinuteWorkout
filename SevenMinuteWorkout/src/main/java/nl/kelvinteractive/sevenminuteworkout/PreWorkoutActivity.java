@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class PreWorkoutActivity extends Activity {
 
     int cWorkoutIndex;
-    int cTimer = 30;
+    int cTimer = 5;
     String cWorkout = null;
 
     public void onCreate(Bundle savedInstanceState) {
