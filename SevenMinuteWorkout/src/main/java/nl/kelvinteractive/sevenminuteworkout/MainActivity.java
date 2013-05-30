@@ -29,7 +29,20 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String aWorkouts[] = {"Jumping Jacks", "Wall sit", "Push-up", "Abdominal crunch", "Chair step", "Squat", "Chair push", "Plank", "Running, high knees", "Lunge", "Push-up and rotate", "Side plank"};
+        String aWorkouts[] = {
+            "Jumping Jacks",
+            "Wall sit",
+            "Push-up",
+            "Abdominal crunch",
+            "Chair step",
+            "Squat",
+            "Chair push",
+            "Plank",
+            "Running, high knees",
+            "Lunge",
+            "Push-up and rotate",
+            "Side plank"
+        };
 
         //TODO: Add NullPointer check
         ((MyApp) this.getApplicationContext()).setWorkouts(aWorkouts);
@@ -42,41 +55,6 @@ public class MainActivity extends Activity {
                 MainActivity.this.startActivity(myIntent);
             }
         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        String namen[] = {"Kelvin", "Ruurd", "Eelco", "Jan Hendrik"};
-
-        int aantal = namen.length;
-
-        Log.i("Naam", namen[(int)Math.random() * aantal - 1]);
-        Log.i("Naam", namen[(int)Math.random() * aantal - 1]);
-        Log.i("Naam", namen[(int)Math.random() * aantal - 1]);
-        Log.i("Naam", namen[(int)Math.random() * aantal - 1]);
-
-
-
-
-
-
-
-
-
-
 
 
     }
